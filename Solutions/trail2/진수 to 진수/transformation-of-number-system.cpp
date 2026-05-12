@@ -15,6 +15,7 @@ int nToDec(int n, string num) {
     return dec_num;
 }
 
+// 10진수를 n진수로
 string decToN(int n, int num) {
     string n_num = "";
 
