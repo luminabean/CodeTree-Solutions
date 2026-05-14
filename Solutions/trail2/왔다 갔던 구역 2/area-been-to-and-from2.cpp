@@ -13,7 +13,7 @@ int main() {
     }
 
     // Please write your code here.
-    int coord[201] = {0, }; // 10 * 10 = 100이므로 -100 ~ 100까지 필요
+    int coord[2001] = {0, }; // 10 * 100 = 1000이므로 -1000 ~ 1000까지 필요
     int cur_coord = 100; // 현재 좌표
 
     // 명령을 하나씩 확인
@@ -30,7 +30,7 @@ int main() {
     int ans = 0;
 
     // 2번 이상 지나간 영역 확인
-    for (int i = 0; i < 201; i++) {
+    for (int i = 0; i < 2001; i++) {
         if (coord[i] >= 2)
             ans++;
     }
